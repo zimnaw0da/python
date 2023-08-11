@@ -63,6 +63,7 @@ print(str(percentage) + "%")
 
 
 # Check if the result is above or below 30%
+# You can set any %
 if percentage >= 30:
     print("Congratulations! You passed the quiz!")
 else:
