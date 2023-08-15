@@ -4,7 +4,7 @@ print("If you want to play good luck!")
 
 player = input("Do you want to play Yes/No: ")
 if player == "Yes":
-    print("Im getting ready to play!")
+    print("Im ready to play!")
 else:
     quit()
 
