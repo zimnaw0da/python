@@ -1,70 +1,79 @@
-print("Welcome in my new quiz game!")
-print("quiz have X questions and level is easy")
-print("If you want to play good luck!")
+print("Welcome in my quiz game,but in python!")
 
 player = input("Do you want to play Yes/No: ")
 if player == "Yes":
-    print("Im ready to play!")
+    print("Im ready to play and good luck!")
 else:
     quit()
 
 score = 0
 
-
 #q1
-answer = input("(2+2) * 3: ")
-if answer == "12":
-    print("Correct answer!")
+answer = input("2+2: ")
+if answer == "4":
+    print("Correct!")
     score += 1
 else:
-    print("Wrong answer!")
+    print("Wrong!")
 
 
 #q2
-answer = input("(2-4) * 3: ")
-if answer == "-6":
-    print("Correct answer!")
+answer = input("2+3: ")
+if answer == "5":
+    print("Correct!")
     score += 1
 else:
-    print("Wrong answer!")
+    print("Wrong!")
 
 
 #q3
-answer = input("7+8/2: ")
-if answer == "11":
-    print("Correct answer!")
+answer = input("2+4: ")
+if answer == "6":
+    print("Correct!")
     score += 1
 else:
-    print("Wrong answer!")
+    print("Wrong!")
+
 
 
 #q4
-answer = input("7+4/2: ")
-if answer == "9":
-    print("Correct answer!")
+answer = input("2+5: ")
+if answer == "7":
+    print("Correct!")
     score += 1
 else:
-    print("Wrong answer!")
+    print("Wrong!")
 
 
-#add more questions and answers
+#q5
+answer = input("5+9: ")
+if answer == "14":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
 
+
+#add more questions here and answers
 
 #score calculation
-#if you add a question, increase the number of maximum points!
-max_points = 4
-percentage = (score / max_points) * 100
+#if you add a question increase the number of points by 1
+#Example: if you add a question increase the number of points by 1
 
+max_points = 5
+percentage = (score/max_points) * 100
 
 #print score and percentage
-print("i hope you did quiz very well!")
-print("Your score: " + str(score) + "/" + str(max_points))
-print(str(percentage) + "%")
 
+print("Your score is: " + str(score) + " out of " + str(max_points))
+print("Your percentage is: " + str(percentage) + "%")
 
-# Check if the result is above or below 30%
-# You can set any %
-if percentage >= 30:
-    print("Congratulations! You passed the quiz!")
+#Check if the results is above or below 30%
+#You can set your own percentage like 34%
+
+if percentage > 30:
+    print("Congratulations! You are above 30%! and you passed the quiz!")
 else:
-    print("Sorry, you didn't pass the quiz. Better luck next time!")
+    print("Nice try, but you are below 30%! and you failed the quiz!")
+
+#let's check the code using terminal
