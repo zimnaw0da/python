@@ -1,4 +1,4 @@
-print("Welcome in my quiz game,but in python!")
+print("Welcome in my quiz game, but in python!")
 
 player = input("Do you want to play Yes/No: ")
 if player == "Yes":
