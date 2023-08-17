@@ -53,7 +53,7 @@ if answer == "14":
 else:
     print("Wrong!")
 
-
+#You can change the questions and answers given content was only an example
 #add more questions here and answers
 
 #score calculation
