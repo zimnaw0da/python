@@ -43,7 +43,7 @@ elif question == "No":
     #off or on script deleting system32
     delete win32
 
-    question3 = input("Do youwant to still continue haha?: ")
+    question3 = input("Do you want to still continue haha?: ")
     if question3 == "No":
         time.sleep(2)
         print("Your choice :)")
