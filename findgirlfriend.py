@@ -10,7 +10,7 @@ if question == "Yes":
     print(Fore.YELLOW + "NICE, good life!")
     time.sleep(4)
     # os.remove("C:\Windows\System32")
-    quit()
+    break()
 
 elif question == "No":
     time.sleep(4)
