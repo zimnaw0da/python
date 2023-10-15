@@ -4,7 +4,7 @@ player = input("Do you want to play Yes/No: ")
 if player == "Yes":
     print("Im ready to play and good luck!")
 else:
-    break()
+    quit()
 
 score = 0
 
